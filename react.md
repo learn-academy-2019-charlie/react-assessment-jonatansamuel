@@ -34,13 +34,13 @@ Try your best to answer each question on your own before looking up the answer o
 
     import React, { Component } from 'react';
 
-    class Recipes extends React.Component{
+    class Recipes extends Component{
       constructor(props){
         super(props)
         this.state = {
-          recipes: 
+          recipes: [
             {name: 'Meatballs'},
-            {name: 'Mac & Cheese'}
+            {name: 'Mac & Cheese'}]
       
         }
       }
